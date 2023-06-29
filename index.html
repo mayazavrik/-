@@ -1,0 +1,1291 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- 
+    - primary meta tags
+  -->
+  <title>MAYummy pastry</title>
+  <meta name="title" content="MAYummy pastry">
+  <meta name="description" content="This is my pastry shop">
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="/public/images/favicon.ico" type="image/svg+xml">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Forum&display=swap" rel="stylesheet">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="/style.css">
+
+  <!-- 
+    - preload images
+  -->
+  <link rel="preload" as="image" href="/public/images/1.jpg">
+  <link rel="preload" as="image" href="/public/images/2.jpg">
+  <link rel="preload" as="image" href="/public/images/3.jpg">
+
+</head>
+
+<body id="top">
+
+  <!-- 
+    - #PRELOADER
+  -->
+
+  <div class="preload" data-preaload>
+    <div class="circle"></div>
+    <p class="text">MAYummy</p>
+  </div>
+
+
+
+
+
+  <!-- 
+    - #TOP BAR
+  -->
+
+  <div class="topbar">
+    <div class="container">
+
+      <address class="topbar-item">
+        <div class="icon">
+          <ion-icon name="location-outline" aria-hidden="true"></ion-icon>
+        </div>
+
+        <span class="span">
+          СПб, метро Приморская
+        </span>
+      </address>
+
+      <div class="separator"></div>
+
+      <div class="topbar-item item-2">
+        <div class="icon">
+          
+        </div>
+
+        <span class="span"></span>
+      </div>
+
+      <a href="tel:+79111866437" class="topbar-item link">
+        <div class="icon">
+          <ion-icon name="call-outline" aria-hidden="true"></ion-icon>
+        </div>
+
+        <span class="span">+7 911 186 64 37</span>
+      </a>
+
+      <div class="separator"></div>
+
+      <a href="mayazavrik@gmail.com" class="topbar-item link">
+        <div class="icon">
+          <ion-icon name="mail-outline" aria-hidden="true"></ion-icon>
+        </div>
+
+        <span class="span">mayazavrik@gmail.com</span>
+      </a>
+
+    </div>
+  </div>
+
+
+
+
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      
+
+      <nav class="navbar" data-navbar>
+
+        <button class="close-btn" aria-label="close menu" data-nav-toggler>
+          <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+        </button>
+
+       
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <a href="#home" class="navbar-link hover-underline active">
+              <div class="separator"></div>
+
+              <span class="span">На главную</span>
+            </a>
+          </li>
+
+         
+
+          <li class="navbar-item">
+            <a href="#about" class="navbar-link hover-underline">
+              <div class="separator"></div>
+
+              <span class="span">Обо мне</span>
+            </a>
+          </li>
+
+		  <li class="navbar-item">
+            <a href="#feedback" class="navbar-link hover-underline">
+              <div class="separator"></div>
+
+              <span class="span">Отзывы</span>
+            </a>
+          </li>
+
+    
+
+          <li class="navbar-item">
+            <a href="#" class="navbar-link hover-underline">
+              <div class="separator"></div>
+
+              <span class="span">Контакты</span>
+            </a>
+          </li>
+
+
+
+        </ul>
+
+        <div class="text-center">
+          <p class="headline-1 navbar-title">Visit Us</p>
+
+          <address class="body-4">
+            Restaurant St, Delicious City, <br>
+            London 9578, UK
+          </address>
+
+          <p class="body-4 navbar-text">Open: 9.30 am - 2.30pm</p>
+
+          <a href="mailto:booking@grilli.com" class="body-4 sidebar-link">booking@grilli.com</a>
+
+          <div class="separator"></div>
+
+          <p class="contact-label">Booking Request</p>
+
+          <a href="tel:+88123123456" class="body-1 contact-number hover-underline">
+            +88-123-123456
+          </a>
+        </div>
+
+      </nav>
+
+      <a href="shop.html" class="btn btn-secondary">
+        <span class="text text-1">Магазин</span>
+
+        <span class="text text-2" aria-hidden="true">Магазин</span>
+      </a>
+
+      <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+        <span class="line line-1"></span>
+        <span class="line line-2"></span>
+        <span class="line line-3"></span>
+      </button>
+
+      <div class="overlay" data-nav-toggler data-overlay></div>
+
+    </div>
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="hero text-center" aria-label="home" id="home">
+
+        <ul class="hero-slider" data-hero-slider>
+
+          <li class="slider-item active" data-hero-slider-item>
+
+            <div class="slider-bg">
+              <img src="./assets/images/hero-slider-1.jpg" width="1880" height="950" alt="" class="img-cover">
+            </div>
+
+            <p class="label-2 section-subtitle slider-reveal">Современные тенденции кондитерского искусства</p>
+
+            <h1 class="display-1 hero-title slider-reveal">
+				Элитные муссовые десерты
+              
+            </h1>
+
+            <p class="body-2 hero-text slider-reveal">
+				
+              
+            </p>
+
+            <a href="shop.html" class="btn btn-primary slider-reveal">
+              <span class="text text-1">Посмотреть каталог</span>
+
+              <span class="text text-2" aria-hidden="true">Посмотреть каталог</span>
+            </a>
+
+          </li>
+
+          <li class="slider-item" data-hero-slider-item>
+
+            <div class="slider-bg">
+              <img src="./assets/images/hero-slider-2.jpg" width="1880" height="950" alt="" class="img-cover">
+            </div>
+
+            <p class="label-2 section-subtitle slider-reveal">Минимум сахара, максимум чистого вкуса</p>
+
+            <h1 class="display-1 hero-title slider-reveal">
+				Натуральные вкусы <br>
+				без лишней сладости
+            </h1>
+
+            <p class="body-2 hero-text slider-reveal">
+				
+            </p>
+
+            <a href="shop.html" class="btn btn-primary slider-reveal">
+              <span class="text text-1">Посмотреть каталог</span>
+
+              <span class="text text-2" aria-hidden="true">Посмотреть каталог</span>
+            </a>
+
+          </li>
+
+          <li class="slider-item" data-hero-slider-item>
+
+            <div class="slider-bg">
+              <img src="./assets/images/hero-slider-3.jpg" width="1880" height="950" alt="" class="img-cover">
+            </div>
+
+            <p class="label-2 section-subtitle slider-reveal"></p>
+
+            <h1 class="display-1 hero-title slider-reveal">
+              Преврати любой день в <br>
+              праздник
+            </h1>
+
+            <p class="body-2 hero-text slider-reveal">
+              
+            </p>
+
+            <a href="shop.html" class="btn btn-primary slider-reveal">
+              <span class="text text-1">Посмотреть каталог</span>
+
+              <span class="text text-2" aria-hidden="true">Посмотреть каталог</span>
+            </a>
+
+          </li>
+
+        </ul>
+
+        <button class="slider-btn prev" aria-label="slide to previous" data-prev-btn>
+          <ion-icon name="chevron-back"></ion-icon>
+        </button>
+
+        <button class="slider-btn next" aria-label="slide to next" data-next-btn>
+          <ion-icon name="chevron-forward"></ion-icon>
+        </button>
+
+       
+
+      </section>
+
+
+
+
+
+      <!-- 
+        - #SERVICE
+      -->
+
+      <section class="section service bg-black-10 text-center" aria-label="service">
+        <div class="container">
+
+          <p class="section-subtitle label-2">MAYummy pastry</p>
+
+          <h2 class="headline-1 section-title"></h2>
+
+          <p class="section-text">
+            
+          </p>
+		  <div class="container">
+			<div class="block">
+				<div class="content">
+					<img src="/public/images/quote.svg" class="quote-img">
+					<p>
+						Ваши десерты бесподобны! 
+						К сожалению, опять не успела сделать фото.
+						Каждый раз происходит что- то мистическое:
+						Достаю пирожные из коробки... дальше туман...
+						Пока опомнишься, от десерта только подставочка🤷‍♀
+						Ммм... и воспоминания о тающем во рту очередном шедевре...
+						Ооочень вкусно, нежно, легко, божественно!
+						Вся семья в восторге!
+						Это уже не говоря об оформлении!
+						Спасибо! Заказывали и будем заказывать❤
+						(Отдельная благодарность за пасхальный кулич, первый раз в жизни не заметила как съела выпечку с изюмом😋)
+					</p>
+					<h3>Кристина</h3>
+				</div>
+				<div class="content">
+					<img src="/public/images/quote.svg" class="quote-img">
+					<p>
+						Ваши десерты бесподобны! 
+						К сожалению, опять не успела сделать фото.
+						Каждый раз происходит что- то мистическое:
+						Достаю пирожные из коробки... дальше туман...
+						Пока опомнишься, от десерта только подставочка🤷‍♀
+						Ммм... и воспоминания о тающем во рту очередном шедевре...
+						Ооочень вкусно, нежно, легко, божественно!
+						Вся семья в восторге!
+						Это уже не говоря об оформлении!
+						Спасибо! Заказывали и будем заказывать❤
+						(Отдельная благодарность за пасхальный кулич, первый раз в жизни не заметила как съела выпечку с изюмом😋)
+					</p>
+					<h3>Кристина</h3>
+				</div>
+				<div class="content">
+					<img src="/public/images/quote.svg" class="quote-img">
+					<p>
+						Ваши десерты бесподобны! 
+						К сожалению, опять не успела сделать фото.
+						Каждый раз происходит что- то мистическое:
+						Достаю пирожные из коробки... дальше туман...
+						Пока опомнишься, от десерта только подставочка🤷‍♀
+						Ммм... и воспоминания о тающем во рту очередном шедевре...
+						Ооочень вкусно, нежно, легко, божественно!
+						Вся семья в восторге!
+						Это уже не говоря об оформлении!
+						Спасибо! Заказывали и будем заказывать❤
+						(Отдельная благодарность за пасхальный кулич, первый раз в жизни не заметила как съела выпечку с изюмом😋)
+					</p>
+					<h3>Кристина</h3>
+				</div>
+			</div>
+		  </div>
+
+          <!-- <ul class="grid-list">
+
+            <li>
+              <div class="service-card"> -->
+
+                <!-- <a href="#" class="has-before hover:shine">
+                  <figure class="card-banner img-holder" style="--width: 285; --height: 336;">
+                    <img src="/public/images/cake.jpg" width="285" height="336" loading="lazy" alt="cake"
+                      class="img-cover">
+                  </figure>
+                </a>
+
+                <div class="card-content">
+
+                  <h3 class="title-4 card-title">
+                    <a href="#">Торты</a>
+                  </h3>
+
+                  <a href="#" class="btn-text hover-underline label-2">Посмотреть каталог</a>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <a href="#" class="has-before hover:shine">
+                  <figure class="card-banner img-holder" style="--width: 285; --height: 336;">
+                    <img src="/public/images/pastry.jpg" width="285" height="336" loading="lazy" alt="pastry"
+                      class="img-cover">
+                  </figure>
+                </a>
+
+                <div class="card-content">
+
+                  <h3 class="title-4 card-title">
+                    <a href="#">Пирожные</a>
+                  </h3>
+
+                  <a href="#" class="btn-text hover-underline label-2">Посмотреть каталог</a>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <a href="#" class="has-before hover:shine">
+                  <figure class="card-banner img-holder" style="--width: 285; --height: 336;">
+                    <img src="/public/images/cookie.jpg" width="285" height="336" loading="lazy" alt="other"
+                      class="img-cover">
+                  </figure>
+                </a>
+
+                <div class="card-content">
+
+                  <h3 class="title-4 card-title">
+                    <a href="#">Другое</a>
+                  </h3>
+
+                  <a href="#" class="btn-text hover-underline label-2">Посмотреть каталог</a>
+
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+           -->
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #ABOUT
+      -->
+
+      <section class="section about text-center" aria-labelledby="about-label" id="about">
+        <div class="container">
+
+          <div class="about-content">
+
+            <p class="label-2 section-subtitle" id="about-label">Обо мне</p>
+
+            <h2 class="headline-1 section-title">Привет! Меня зовут Майя и я люблю делать тортики</h2>
+
+            <p class="section-text">
+				<p>Началось это увлечение еще лет в 14, но в последнее время мои друзья и знакомые все чаще 
+					просят меня приготовить что-нибудь для них и я решила для удобства создать отдельную группу.</p>
+				
+				<p>Я делаю муссовые десерты. Узнать о них подробнее можно <a href="aboutcakes.html">тут</a> </p>
+				
+				<p>Мое вдохновение - иностранные шефы-кондитеры. Я внимательно слежу за тенденциями в кондитерском искусстве
+					 и стараюсь учиться чему-то новому.
+				Мне хотелось бы показать людям другие десерты - не слишком сладкие, с более тонкими вкусами,
+				 интересным и стильным внешним видом.</p>
+				
+				<p>Для меня очень важны хорошие качественные ингредиенты- я использую
+					 профессиональный бельгийский шоколад и натуральные фруктовые пюре. Обилие пищевых добавок в любых покупных сладостях и снеках вызывает привыкание вкусовых рецепторов к неестественно насыщенным вкусам, поэтому возможно, что мои десерты покажутся вам необычными ☺</p>
+				
+				<p>Во многих десертах крайне небольшое количество сахара, однако я не стремлюсь свести его к минимуму,
+					 поскольку это неизбежно отразится на вкусе. Поэтому я не делаю ПП-десерты, но можно просто выбрать максимально несладкий вариант.</p>
+				
+				В товарах вы можете увидеть наиболее популярные десерты, однако их можно изменить: добавить/заменить
+				 начинку, выбрать другую форму и декор.
+				
+				
+            </p>
+
+            <div class="contact-label">+79111866437</div>
+
+            <a href="+79111866437" class="body-1 contact-number hover-underline">+79111866437</a>
+
+            <a href="#" class="btn btn-primary">
+              <span class="text text-1">На главную</span>
+
+              <span class="text text-2" aria-hidden="true">Read More</span>
+            </a>
+
+          </div>
+
+          <figure class="about-banner">
+
+            <img src="/public/images/me.jpg" width="570" height="570" loading="lazy" alt="about banner"
+              class="w-100" data-parallax-item data-parallax-speed="1">
+
+            
+          </figure>
+
+          
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #SPECIAL DISH
+      -->
+
+      <section class="special-dish text-center" aria-labelledby="dish-label">
+
+        <div class="special-dish-banner">
+          <img src="./assets/images/special-dish-banner.jpg" width="940" height="900" loading="lazy" alt="special dish"
+            class="img-cover">
+        </div>
+
+        <div class="special-dish-content bg-black-10">
+          <div class="container">
+
+            
+
+            <p class="section-subtitle label-2"></p>
+
+            <h2 class="headline-1 section-title">О десертах</h2>
+
+            <p class="section-text">
+				Я делаю муссовые десерты.
+				Чтобы получить десерт определенной формы, мусс заливают в специальную форму и замораживают. 
+				В этом есть и плюсы и минусы. 
+				</p>
+				
+				<p>Плюсы: такой десерт можно хранить в морозилке. Вы можете убрать его в морозилку целиком или 
+					нарезать на порции и доставать по кусочку, когда захочется.
+				Перед подачей десерт нужно переставить из морозилки в холодильник, чтобы он принял правильную
+				 консистенцию. Обычно это около 2-3 часов для пирожных и около 5 для торта. 
+				</p>
+				<p>
+				Минусы: муссовые десерты должны храниться в холодильнике. На столе при комнатной температуре они могут
+				 простоять около 30 минут (в зависимости от размеров), затем начнут терять форму.
+				</p>
+				Обычно десерт состоит из мусса, начинки и бисквита, но можно сделать несколько начинок 
+				(например, начинкой может быть другой мусс) или добавить хрустящий слой из вафельной крошки.
+				
+				<p>Два самых популярных покрытия:</p>
+				<figure>
+				
+				<figcaption>Зеркальная глазурь</figcaption>
+				</figure>
+				<details>
+				<summary> Особенности зеркальной глазури</summary>
+				<p>Покрытие мягкое и хрупкое -достаточно случайно задеть чем-нибудь поверхность десерта и в нем
+					 образуется отверстие.
+					 При заморозке глазурь становится матовой и "зеркальность" пропадает.</p>
+				</details>
+				<figure>
+					
+					<figcaption>Велюр</figcaption>
+				</figure>
+				<details>
+				<summary>Особенности велюра</summary> 
+				<p>Велюр-тонкое шоколадное покрытие, похожее на бархат. По сравнению с зеркальной глазурью
+					 более стойкий и обычно не меняется при заморозке(однако, при резких перепадах температуры м
+					 огут появиться трещины) </p>
+				</details>
+				</details>
+				
+				Есть еще другие варианты, как ,например, глазурь на манговом пирожном.
+            </p>
+
+            
+
+          </div>
+        </div>
+
+       
+
+      </section>
+
+
+
+
+
+      <!-- 
+        - #MENU
+      -->
+
+      <section class="section menu" aria-label="menu-label" id="menu">
+        <div class="container">
+
+          <p class="section-subtitle text-center label-2">Special Selection</p>
+
+          <h2 class="headline-1 section-title text-center">Delicious Menu</h2>
+
+          <ul class="grid-list">
+
+            <li>
+              <div class="menu-card hover:card">
+
+                <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                  <img src="./assets/images/menu-1.png" width="100" height="100" loading="lazy" alt="Greek Salad"
+                    class="img-cover">
+                </figure>
+
+                <div>
+
+                  <div class="title-wrapper">
+                    <h3 class="title-3">
+                      <a href="#" class="card-title">Greek Salad</a>
+                    </h3>
+
+                    <span class="badge label-1">Seasonal</span>
+
+                    <span class="span title-2">$25.50</span>
+                  </div>
+
+                  <p class="card-text label-1">
+                    Tomatoes, green bell pepper, sliced cucumber onion, olives, and feta cheese.
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="menu-card hover:card">
+
+                <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                  <img src="./assets/images/menu-2.png" width="100" height="100" loading="lazy" alt="Lasagne"
+                    class="img-cover">
+                </figure>
+
+                <div>
+
+                  <div class="title-wrapper">
+                    <h3 class="title-3">
+                      <a href="#" class="card-title">Lasagne</a>
+                    </h3>
+
+                    <span class="span title-2">$40.00</span>
+                  </div>
+
+                  <p class="card-text label-1">
+                    Vegetables, cheeses, ground meats, tomato sauce, seasonings and spices
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="menu-card hover:card">
+
+                <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                  <img src="./assets/images/menu-3.png" width="100" height="100" loading="lazy" alt="Butternut Pumpkin"
+                    class="img-cover">
+                </figure>
+
+                <div>
+
+                  <div class="title-wrapper">
+                    <h3 class="title-3">
+                      <a href="#" class="card-title">Butternut Pumpkin</a>
+                    </h3>
+
+                    <span class="span title-2">$10.00</span>
+                  </div>
+
+                  <p class="card-text label-1">
+                    Typesetting industry lorem Lorem Ipsum is simply dummy text of the priand.
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="menu-card hover:card">
+
+                <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                  <img src="./assets/images/menu-4.png" width="100" height="100" loading="lazy" alt="Tokusen Wagyu"
+                    class="img-cover">
+                </figure>
+
+                <div>
+
+                  <div class="title-wrapper">
+                    <h3 class="title-3">
+                      <a href="#" class="card-title">Tokusen Wagyu</a>
+                    </h3>
+
+                    <span class="badge label-1">New</span>
+
+                    <span class="span title-2">$39.00</span>
+                  </div>
+
+                  <p class="card-text label-1">
+                    Vegetables, cheeses, ground meats, tomato sauce, seasonings and spices.
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="menu-card hover:card">
+
+                <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                  <img src="./assets/images/menu-5.png" width="100" height="100" loading="lazy" alt="Olivas Rellenas"
+                    class="img-cover">
+                </figure>
+
+                <div>
+
+                  <div class="title-wrapper">
+                    <h3 class="title-3">
+                      <a href="#" class="card-title">Olivas Rellenas</a>
+                    </h3>
+
+                    <span class="span title-2">$25.00</span>
+                  </div>
+
+                  <p class="card-text label-1">
+                    Avocados with crab meat, red onion, crab salad stuffed red bell pepper and green bell pepper.
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="menu-card hover:card">
+
+                <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                  <img src="./assets/images/menu-6.png" width="100" height="100" loading="lazy" alt="Opu Fish"
+                    class="img-cover">
+                </figure>
+
+                <div>
+
+                  <div class="title-wrapper">
+                    <h3 class="title-3">
+                      <a href="#" class="card-title">Opu Fish</a>
+                    </h3>
+
+                    <span class="span title-2">$49.00</span>
+                  </div>
+
+                  <p class="card-text label-1">
+                    Vegetables, cheeses, ground meats, tomato sauce, seasonings and spices
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+          <p class="menu-text text-center">
+            During winter daily from <span class="span">7:00 pm</span> to <span class="span">9:00 pm</span>
+          </p>
+
+          <a href="#" class="btn btn-primary">
+            <span class="text text-1">View All Menu</span>
+
+            <span class="text text-2" aria-hidden="true">View All Menu</span>
+          </a>
+
+          
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #TESTIMONIALS
+      -->
+
+      <section class="section testi text-center has-bg-image"
+        style="background-image: url('./assets/images/testimonial-bg.jpg')" aria-label="testimonials">
+        <div class="container">
+
+          <div class="quote">”</div>
+
+          <p class="headline-2 testi-text">
+            I wanted to thank you for inviting me down for that amazing dinner the other night. The food was
+            extraordinary.
+          </p>
+
+          <div class="wrapper">
+            <div class="separator"></div>
+            <div class="separator"></div>
+            <div class="separator"></div>
+          </div>
+
+          <div class="profile">
+            <img src="./assets/images/testi-avatar.jpg" width="100" height="100" loading="lazy" alt="Sam Jhonson"
+              class="img">
+
+            <p class="label-2 profile-name">Sam Jhonson</p>
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #RESERVATION
+      -->
+
+      <section class="reservation">
+        <div class="container">
+
+          <div class="form reservation-form bg-black-10">
+
+            <form action="" class="form-left">
+
+              <h2 class="headline-1 text-center">Online Reservation</h2>
+
+              <p class="form-text text-center">
+                Booking request <a href="tel:+88123123456" class="link">+88-123-123456</a>
+                or fill out the order form
+              </p>
+
+              <div class="input-wrapper">
+                <input type="text" name="name" placeholder="Your Name" autocomplete="off" class="input-field">
+
+                <input type="tel" name="phone" placeholder="Phone Number" autocomplete="off" class="input-field">
+              </div>
+
+              <div class="input-wrapper">
+
+                <div class="icon-wrapper">
+                  <ion-icon name="person-outline" aria-hidden="true"></ion-icon>
+
+                  <select name="person" class="input-field">
+                    <option value="1-person">1 Person</option>
+                    <option value="2-person">2 Person</option>
+                    <option value="3-person">3 Person</option>
+                    <option value="4-person">4 Person</option>
+                    <option value="5-person">5 Person</option>
+                    <option value="6-person">6 Person</option>
+                    <option value="7-person">7 Person</option>
+                  </select>
+
+                  <ion-icon name="chevron-down" aria-hidden="true"></ion-icon>
+                </div>
+
+                <div class="icon-wrapper">
+                  <ion-icon name="calendar-clear-outline" aria-hidden="true"></ion-icon>
+
+                  <input type="date" name="reservation-date" class="input-field">
+
+                  <ion-icon name="chevron-down" aria-hidden="true"></ion-icon>
+                </div>
+
+                <div class="icon-wrapper">
+                  <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+
+                  <select name="person" class="input-field">
+                    <option value="08:00am">08 : 00 am</option>
+                    <option value="09:00am">09 : 00 am</option>
+                    <option value="010:00am">10 : 00 am</option>
+                    <option value="011:00am">11 : 00 am</option>
+                    <option value="012:00am">12 : 00 am</option>
+                    <option value="01:00pm">01 : 00 pm</option>
+                    <option value="02:00pm">02 : 00 pm</option>
+                    <option value="03:00pm">03 : 00 pm</option>
+                    <option value="04:00pm">04 : 00 pm</option>
+                    <option value="05:00pm">05 : 00 pm</option>
+                    <option value="06:00pm">06 : 00 pm</option>
+                    <option value="07:00pm">07 : 00 pm</option>
+                    <option value="08:00pm">08 : 00 pm</option>
+                    <option value="09:00pm">09 : 00 pm</option>
+                    <option value="10:00pm">10 : 00 pm</option>
+                  </select>
+
+                  <ion-icon name="chevron-down" aria-hidden="true"></ion-icon>
+                </div>
+
+              </div>
+
+              <textarea name="message" placeholder="Message" autocomplete="off" class="input-field"></textarea>
+
+              <button type="submit" class="btn btn-secondary">
+                <span class="text text-1">Book A Table</span>
+
+                <span class="text text-2" aria-hidden="true">Book A Table</span>
+              </button>
+
+            </form>
+
+            <div class="form-right text-center" style="background-image: url('./assets/images/form-pattern.png')">
+
+              <h2 class="headline-1 text-center">Contact Us</h2>
+
+              <p class="contact-label">Booking Request</p>
+
+              <a href="tel:+88123123456" class="body-1 contact-number hover-underline">+88-123-123456</a>
+
+              <div class="separator"></div>
+
+              <p class="contact-label">Location</p>
+
+              <address class="body-4">
+                Restaurant St, Delicious City, <br>
+                London 9578, UK
+              </address>
+
+              <p class="contact-label">Lunch Time</p>
+
+              <p class="body-4">
+                Monday to Sunday <br>
+                11.00 am - 2.30pm
+              </p>
+
+              <p class="contact-label">Dinner Time</p>
+
+              <p class="body-4">
+                Monday to Sunday <br>
+                05.00 pm - 10.00pm
+              </p>
+
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #FEATURES
+      -->
+
+      <section class="section features text-center" aria-label="features">
+        <div class="container">
+
+          <p class="section-subtitle label-2"></p>
+
+          <h2 class="headline-1 section-title">О десертах</h2>
+
+          <ul class="grid-list">
+
+            <li class="feature-item">
+              <div class="feature-card">
+
+                <div class="card-icon">
+                  <img src="./assets/images/features-icon-1.png" width="100" height="80" loading="lazy" alt="icon">
+                </div>
+
+                <h3 class="title-2 card-title">Hygienic Food</h3>
+
+                <p class="label-1 card-text">Lorem Ipsum is simply dummy printing and typesetting.</p>
+
+              </div>
+            </li>
+
+            <li class="feature-item">
+              <div class="feature-card">
+
+                <div class="card-icon">
+                  <img src="./assets/images/features-icon-2.png" width="100" height="80" loading="lazy" alt="icon">
+                </div>
+
+                <h3 class="title-2 card-title">Fresh Environment</h3>
+
+                <p class="label-1 card-text">Lorem Ipsum is simply dummy printing and typesetting.</p>
+
+              </div>
+            </li>
+
+            <li class="feature-item">
+              <div class="feature-card">
+
+                <div class="card-icon">
+                  <img src="./assets/images/features-icon-3.png" width="100" height="80" loading="lazy" alt="icon">
+                </div>
+
+                <h3 class="title-2 card-title">Skilled Chefs</h3>
+
+                <p class="label-1 card-text">Lorem Ipsum is simply dummy printing and typesetting.</p>
+
+              </div>
+            </li>
+
+            <li class="feature-item">
+              <div class="feature-card">
+
+                <div class="card-icon">
+                  <img src="./assets/images/features-icon-4.png" width="100" height="80" loading="lazy" alt="icon">
+                </div>
+
+                <h3 class="title-2 card-title">Event & Party</h3>
+
+                <p class="label-1 card-text">Lorem Ipsum is simply dummy printing and typesetting.</p>
+
+              </div>
+            </li>
+
+          </ul>
+
+        
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #EVENT
+      -->
+
+      <section class="section event bg-black-10" aria-label="event">
+        <div class="container">
+
+          <p class="section-subtitle label-2 text-center">Recent Updates</p>
+
+          <h2 class="section-title headline-1 text-center">Upcoming Event</h2>
+
+          <ul class="grid-list">
+
+            <li>
+              <div class="event-card has-before hover:shine">
+
+                <div class="card-banner img-holder" style="--width: 350; --height: 450;">
+                  <img src="./assets/images/event-1.jpg" width="350" height="450" loading="lazy"
+                    alt="Flavour so good you’ll try to eat with your eyes." class="img-cover">
+
+                  <time class="publish-date label-2" datetime="2022-09-15">15/09/2022</time>
+                </div>
+
+                <div class="card-content">
+                  <p class="card-subtitle label-2 text-center">Food, Flavour</p>
+
+                  <h3 class="card-title title-2 text-center">
+                    Flavour so good you’ll try to eat with your eyes.
+                  </h3>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="event-card has-before hover:shine">
+
+                <div class="card-banner img-holder" style="--width: 350; --height: 450;">
+                  <img src="./assets/images/event-2.jpg" width="350" height="450" loading="lazy"
+                    alt="Flavour so good you’ll try to eat with your eyes." class="img-cover">
+
+                  <time class="publish-date label-2" datetime="2022-09-08">08/09/2022</time>
+                </div>
+
+                <div class="card-content">
+                  <p class="card-subtitle label-2 text-center">Healthy Food</p>
+
+                  <h3 class="card-title title-2 text-center">
+                    Flavour so good you’ll try to eat with your eyes.
+                  </h3>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="event-card has-before hover:shine">
+
+                <div class="card-banner img-holder" style="--width: 350; --height: 450;">
+                  <img src="./assets/images/event-3.jpg" width="350" height="450" loading="lazy"
+                    alt="Flavour so good you’ll try to eat with your eyes." class="img-cover">
+
+                  <time class="publish-date label-2" datetime="2022-09-03">03/09/2022</time>
+                </div>
+
+                <div class="card-content">
+                  <p class="card-subtitle label-2 text-center">Recipie</p>
+
+                  <h3 class="card-title title-2 text-center">
+                    Flavour so good you’ll try to eat with your eyes.
+                  </h3>
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+          <a href="#" class="btn btn-primary">
+            <span class="text text-1">View Our Blog</span>
+
+            <span class="text text-2" aria-hidden="true">View Our Blog</span>
+          </a>
+
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer section has-bg-image text-center"
+    style="background-image: url('./assets/images/footer-bg.jpg')">
+    <div class="container">
+
+      <div class="footer-top grid-list">
+
+        <div class="footer-brand has-before has-after">
+
+          <a href="#" class="logo">
+            <img src="./assets/images/logo.svg" width="160" height="50" loading="lazy" alt="grilli home">
+          </a>
+
+          <address class="body-4">
+            Restaurant St, Delicious City, London 9578, UK
+          </address>
+
+          <a href="mailto:booking@grilli.com" class="body-4 contact-link">booking@grilli.com</a>
+
+          <a href="tel:+88123123456" class="body-4 contact-link">Booking Request : +88-123-123456</a>
+
+          <p class="body-4">
+            Open : 09:00 am - 01:00 pm
+          </p>
+
+          <div class="wrapper">
+            <div class="separator"></div>
+            <div class="separator"></div>
+            <div class="separator"></div>
+          </div>
+
+          <p class="title-1">Get News & Offers</p>
+
+          <p class="label-1">
+            Subscribe us & Get <span class="span">25% Off.</span>
+          </p>
+
+          <form action="" class="input-wrapper">
+            <div class="icon-wrapper">
+              <ion-icon name="mail-outline" aria-hidden="true"></ion-icon>
+
+              <input type="email" name="email_address" placeholder="Your email" autocomplete="off" class="input-field">
+            </div>
+
+            <button type="submit" class="btn btn-secondary">
+              <span class="text text-1">Subscribe</span>
+
+              <span class="text text-2" aria-hidden="true">Subscribe</span>
+            </button>
+          </form>
+
+        </div>
+
+        <ul class="footer-list">
+
+          <li>
+            <a href="#" class="label-2 footer-link hover-underline">На главную</a>
+          </li>
+
+          <li>
+            <a href="#" class="label-2 footer-link hover-underline">Магазин</a>
+          </li>
+
+          <li>
+            <a href="#" class="label-2 footer-link hover-underline">Обо мне</a>
+          </li>
+
+          <li>
+            <a href="#" class="label-2 footer-link hover-underline">Отзывы</a>
+          </li>
+
+          <li>
+            <a href="#" class="label-2 footer-link hover-underline">Контакты</a>
+          </li>
+
+        </ul>
+
+        <ul class="footer-list">
+
+          
+
+          <li>
+            <a href="#" class="label-2 footer-link hover-underline">Instagram</a>
+          </li>
+
+          
+          <li>
+            <a href="#" class="label-2 footer-link hover-underline">ВКонтакте</a>
+          </li>
+
+          <li>
+            <a href="#" class="label-2 footer-link hover-underline">WhatsApp</a>
+          </li>
+
+        </ul>
+
+      </div>
+
+      <div class="footer-bottom">
+
+        <p class="copyright">
+          &copy; 2023 MAYummy. All Rights Reserved | Crafted by <a href="https://github.com/mayazavrik"
+            target="_blank" class="link">mayazavrik</a>
+        </p>
+
+      </div>
+
+    </div>
+  </footer>
+
+
+
+
+
+  <!-- 
+    - #BACK TO TOP
+  -->
+
+  <a href="#top" class="back-top-btn active" aria-label="back to top" data-back-top-btn>
+    <ion-icon name="chevron-up" aria-hidden="true"></ion-icon>
+  </a>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script type="module" src="/main.js"></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+
+</html>
